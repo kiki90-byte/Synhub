@@ -5,6 +5,11 @@ import LoginPage from "./pages/LoginPage"
 import RegisterPage from "./pages/Customer/RegisterPage"
 import HomePage from "./pages/Customer/HomePage"
 import MeetingPage from "./pages/Customer/MeetingPage"
+import EventPage from "./pages/Customer/EventPage"
+import CospacePage from "./pages/Customer/CospacePage"
+import PaymentPage from "./pages/Customer/PaymentPage"
+import SuccesPage from "./pages/Customer/SuccesPage"
+import OrderPage from "./pages/Customer/OrderPage"
 
 function App() {
   
@@ -17,6 +22,11 @@ function App() {
         <Route path="/register"Component={RegisterPage}/>
         <Route path="/home"Component={HomePage}/>
         <Route path="/meeting"Component={MeetingPage}/>
+        <Route path="/event"Component={EventPage}/>
+        <Route path="/coworking"Component={CospacePage}/>
+        <Route path="/payment"Component={PaymentPage}/>
+        <Route path="/success"Component={SuccesPage}/>
+        <Route path="/order"Component={OrderPage}/>
       </Routes>
     </>
   )

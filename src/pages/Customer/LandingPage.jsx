@@ -22,7 +22,7 @@ const LandingPage = () => {
                         </Col>
                     </Row>
 
-                    <Row className="banner-image mt-5">
+                    <Row className="banner-image d-none d-lg-flex align-items-center mt-5 ">
                         <Col lg={5}>
                             <img src="../../src/assets/img-hero1.png" alt="" />
                         </Col>
@@ -41,7 +41,11 @@ const LandingPage = () => {
                                 </Col>
                             </Row>
                         </Col>
-
+                        <Row className="banner-image mt-3 d-lg-none d-block align-items-center">
+                            <Col>
+                                <img src="../src/assets/img-hero1.png" alt=""/>
+                            </Col>
+                        </Row>
                     </Row>
                 </Container>
             </div>

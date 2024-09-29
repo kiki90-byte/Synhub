@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 const KontakComponents = () => {
     return (
         <>
-            <div id="kontak" className="=mt-5">
+            <div id="kontak" className="mt-5">
                 <Container>
                     <div className="bg-kontak">
                         <Row>

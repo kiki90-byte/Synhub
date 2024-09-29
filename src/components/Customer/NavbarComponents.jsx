@@ -16,7 +16,7 @@ const NavbarComponents = ({isloggedIn}) => {
         <Navbar.Brand href="#home"><img src= {logo} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto d-flex align-items-center">
+          <Nav className="d-flex align-items-center">
             {isloggedIn ?(
               <Nav.Link href="/home">Beranda</Nav.Link>
             ):(
